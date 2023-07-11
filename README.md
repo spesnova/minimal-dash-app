@@ -1,5 +1,5 @@
 # minimal-dash-app
-A minimal Dash app used for App Runner demo.
+[A minimal Dash app](https://dash.plotly.com/minimal-app) used for App Runner demo.
 
 ### `apprunner.yaml`
 Configuration file for App Runner. For an overview of App Runner configuration files, see [Setting App Runner service options using a configuration file](https://docs.aws.amazon.com/apprunner/latest/dg/config-file.html).
