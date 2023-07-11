@@ -12,4 +12,4 @@ Use HTTP Health Check for the App Runner service(app).
 ![health check configuraiton](screenshot.png)
 
 ### `.devcontainer/devcontainer.json`
-Setting file for [GitHub codespaces](https://github.com/features/codespaces). This is not required to use App Runner.
+Configuration file for [GitHub codespaces](https://github.com/features/codespaces). This is not required to use App Runner.
