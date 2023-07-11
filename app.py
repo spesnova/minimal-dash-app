@@ -20,5 +20,9 @@ def update_graph(value):
     dff = df[df.country==value]
     return px.line(dff, x='year', y='pop')
 
+@app.server.route("/health")
+def healthcheck():
+  return "{status: ok}"
+
 if __name__ == '__main__':
     app.run(debug=True)
