@@ -1,10 +1,8 @@
 version: 1.0
-runtime: python3
+runtime: 3.8
 build:
   commands:
     build:
-      - pip install pipenv
-      - pipenv install
       - pip3 install -r requirements.txt
 run:
   runtime-version: 3.8
